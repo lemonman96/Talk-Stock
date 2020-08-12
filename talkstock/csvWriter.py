@@ -1,10 +1,10 @@
 import tweepy
 import csv
 
-consumer_key='r0swpFT2HEKOzy1jOavTUn5kQ'
-consumer_secret='JMxEoIuWDwRhuISrFP1O2xNCWbujVtq8xahcGEXpg7Tl7X8NRQ'
-access_key='1264334445227708416-gf2xhkNipHaBqjidVrejFX8IuPbr7i'
-access_secret='lWOjkirjuqgaNqoI9Sy8HV916q7znDn3r2hTHjG5zxbol'
+consumer_key='#'
+consumer_secret='#'
+access_key='#'
+access_secret='#'
 
 #authorize twitter, initialize tweepy
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
