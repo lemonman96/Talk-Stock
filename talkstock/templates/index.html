@@ -1,8 +1,11 @@
-<html>
-    <head>
-        
-    </head>
-    <body>
-        {{overall_sentiment}}
-    </body>
-</html>
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<form method="POST" action="search">
+    <div class="form-group">
+      <label for="stock_name"><h3>Search for a stock</h3></label>
+      <input type="search" class="form-control" id="stock_name" name="stock_name">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+{% endblock %}

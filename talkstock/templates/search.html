@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Search: {{ stock_name }} {% endblock %}
+{% block content %}
+<script>
+    let overall_sentiment = {{ overall_sentiment|tojson }};
+</script>
+<canvas id="sentiment_chart" width="1000" height="500" aria-label="Stock Sentiment Chart" role="img"></canvas>
+<script src="static/js/chart_generation.js"></script>
+{% endblock %}
